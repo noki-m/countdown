@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Kiwi+Maru:wght@300&display=swap');
 body {
     font-family: 'Kiwi Maru', 'Nico Moji','Arial', sans-serif;
-    background-color: #4b4442;
+    background-color: #64565e;
     color: #FFE2B5;
     margin: 0;
     padding: 0;
@@ -96,7 +96,7 @@ label:last-of-type {
     border-right: 0;
 }
 input[type="radio"]:checked + label {
-	background-color: #A4C4B8;
+	background-color: #639E94;
 	color: #F6E1DE;
     /* なんかのアクセントA58AAB */
 }
@@ -113,6 +113,7 @@ input[type="radio"]:checked + label {
     width: 50%;
 }
 .input {
+    font-family: 'Kiwi Maru';
     text-align: center;
     padding: .5rem 0;
     width: 50%;

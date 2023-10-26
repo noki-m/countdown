@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Countdown Timer</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:url" content="https://noki-m.github.io/countdown/">
     <meta property="og:type" content="article">
@@ -28,11 +29,14 @@
         <div id="displayWrapper">
             <span id="preText">Loading...まであと</span>
         </div>
-        <span id="timeLeft">✨</span>
+        <span id="timeLeft">x時間x分</span>
     </div>
 
     <div id="controls">
-        <input type="text" id="targetDate" placeholder="Target Date">
+        <div class="inputdate">
+            <input type="text" id="targetDate" class="input" placeholder="Target Date">
+            <span></span>
+        </div>
         <div id="currentTime"></div>
         <div id="formatLoading"><div>
         <div id="formatOptions">
@@ -43,7 +47,7 @@
             <input type="radio" id="DDhhmm" name="format" value="DDhhmm">
             <label for="DDhhmm">DDhhmm</label>
             <input type="radio" id="seconds" name="format" value="seconds">
-            <label for="seconds">Seconds</label>
+            <label for="seconds">seconds</label>
         </div>
     </div>
 </div>

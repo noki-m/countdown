@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://noki-m.github.io/countdown/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Countdown Timer">
+    <meta property="og:description" content="だいたいの時間を表示">
+    <meta property="og:image" content="https://noki-m.github.io/countdown/img/dog_shibainu_red.png"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<div id="container">
+    <div id="countdownArea">
+        <div id="displayWrapper">
+            <span id="preText">Loading...まであと</span>
+        </div>
+        <span id="timeLeft">✨</span>
+    </div>
+
+    <div id="controls">
+        <input type="text" id="targetDate" placeholder="Target Date">
+        <div id="currentTime"></div>
+        <div id="formatLoading"><div>
+        <div id="formatOptions">
+            <input type="radio" id="hhmm" name="format" value="hhmm" checked>
+            <label for="hhmm">hhmm</label>
+            <input type="radio" id="hhmmss" name="format" value="hhmmss">
+            <label for="hhmmss">hhmmss</label>
+            <input type="radio" id="DDhhmm" name="format" value="DDhhmm">
+            <label for="DDhhmm">DDhhmm</label>
+            <input type="radio" id="seconds" name="format" value="seconds">
+            <label for="seconds">Seconds</label>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
